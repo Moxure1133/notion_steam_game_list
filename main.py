@@ -4,14 +4,14 @@ import os
 import logging
 
 # CONFIG
-STEAM_API_KEY = os.environ.get("STEAM_API_KEY")
-STEAM_USER_ID = os.environ.get("STEAM_USER_ID")
-NOTION_API_KEY = os.environ.get("NOTION_API_KEY")
-NOTION_DATABASE_ID = os.environ.get("NOTION_DATABASE_ID")
+STEAM_API_KEY = '6FB855571831133221578119C2ADBAC9'
+STEAM_USER_ID = '76561198950877329'
+NOTION_DATABASE_API_KEY = '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'
+NOTION_DATABASE_ID = "191fe034c75f80f7870dcd8b783c3006"
 # OPTIONAL
-include_played_free_games = os.environ.get("include_played_free_games")
-enable_item_update = os.environ.get("enable_item_update")
-enable_filter = os.environ.get("enable_filter")
+include_played_free_games = 'true'
+enable_item_update = 'false'
+enable_filter = 'true'
 
 # MISC
 MAX_RETRIES = 20
